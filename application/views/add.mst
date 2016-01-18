@@ -1,0 +1,15 @@
+<input type="text" class="ctr-add-title" placeholder="Titel"/>
+<select class="ctr-add-partners">
+    {{#partners}}
+    <option data-id="{{id}}">{{name}}</option>
+    {{/partners}}
+</select>
+<input type="text" class="ctr-add-description" />
+<input type="text" class="ctr-add-tags" />
+<input type="text" class="ctr-add-begin" />
+<input type="text" class="ctr-add-end" />
+<div class="ctr-add-attachment">
+    <i class="fa fa-upload"></i>
+    <input type="file" class="ctr-add-attachment-upload" />
+</div>
+<div class="ctr-add-notify">check</div>

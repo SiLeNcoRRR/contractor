@@ -1,0 +1,212 @@
+/*
+ * Reset
+ **********************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    width: 100%;
+}
+
+section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+    color: #f80;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f50;
+}
+
+a:focus, a:active {
+    color: #f30;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=image],
+input[type=file] {
+    cursor: pointer;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+
+input[type=date],
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=number],
+textarea {
+    color: #555;
+    border: 1px solid #333;
+    padding: 7px 7px 8px 7px;
+}
+
+input[type=date]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+textarea:focus{
+    border: 1px solid #333;
+}
+
+.hidden {
+    display: none;
+}
+
+/*
+ * Header
+ **********************************************************/
+
+.ctr-header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #f80;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px;
+    z-index: 9;
+}
+
+.ctr-header-add {
+    float: right;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.ctr-header-add.active {
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*
+ * Views
+ **********************************************************/
+
+.ctr-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 70px 20px 20px;
+}
+
+.ctr-add {
+    z-index: 8;
+}
+
+.ctr-overview {
+    z-index: 7;
+}
+
+.ctr-search input {
+    width: 100%;
+    height: 30px;
+}
+
+.ctr-list {
+    display: table;
+}
+
+.ctr-list-contract {
+    display: table-row;
+}
+
+.ctr-list-contract:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.ctr-list-contract > div {
+    display: table-cell;
+    padding: 8px;
+    border-top: 1px solid #eee;
+}
+
+.ctr-list-contract:last-child > div {
+    border-bottom: 1px solid #eee;
+}
+
+.ctr-add {
+
+}

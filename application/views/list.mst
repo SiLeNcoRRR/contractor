@@ -1,0 +1,13 @@
+{{#contracts}}
+    <div class="ctr-list-contract">
+        <div class="ctr-list-title">{{title}}</div>
+        <div class="ctr-list-partner">{{partner}}</div>
+        <div class="ctr-list-description">{{description}}</div>
+        <div class="ctr-list-tags">{{tags}}</div>
+        <div class="ctr-list-begin">{{begin}}</div>
+        <div class="ctr-list-end">{{end}}</div>
+        <div class="ctr-list-attachment"><a class="fa fa-download" href="{{attachment}}" target="_blank"></a></div>
+        <div class="ctr-list-notify">{{notify}}</div>
+        <div class="ctr-list-controls">edit | delete</div>
+    </div>
+{{/contracts}}

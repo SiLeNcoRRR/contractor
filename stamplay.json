@@ -1,0 +1,10 @@
+{
+  "appId": "contractor",
+  "apiKey": "3eb4b1deaffe5fcdb0e36762afde23723198cb89d218d64accfa47ab3700b57f",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
